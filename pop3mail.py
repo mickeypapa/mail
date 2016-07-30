@@ -9,9 +9,9 @@ from module import wechat_alarm
 import poplib
 
 # 输入邮件地址, 口令和POP3服务器地址:
-email = 'peter.chen@mbqianbao.com'
-password = 'gwbnsh@407'
-pop3_server = 'mail.mbqianbao.com'
+email = 'xxx'
+password = 'xxx'
+pop3_server = 'xxx'
 
 
 def guess_charset(msg):
