@@ -11,8 +11,8 @@ import sys
 class wechat_alarm():
     def __init__(self):
         variable = {}
-        variable['corpid'] = 'wxa352d7a82071cac7'
-        variable['corpsecret'] = 'v7KbSF_ODfwBXTDpFUPRbtXNgoYHVlzK0PAzZPr0cHxumi87DplSb8upXBuixP1c'
+        variable['corpid'] = 'xxx'
+        variable['corpsecret'] = 'xxxxx'
         r = requests.get('https://qyapi.weixin.qq.com/cgi-bin/gettoken?', params=variable)
         print('Accessing %s ' % r.url)
         js = r.json()
@@ -28,8 +28,8 @@ class wechat_alarm():
 
     def get_access_token(self):
         variable = {}
-        variable['corpid'] = 'wxa352d7a82071cac7'
-        variable['corpsecret'] = 'v7KbSF_ODfwBXTDpFUPRbtXNgoYHVlzK0PAzZPr0cHxumi87DplSb8upXBuixP1c'
+        variable['corpid'] = 'xxx'
+        variable['corpsecret'] = 'xxxx'
         r = requests.get('https://qyapi.weixin.qq.com/cgi-bin/gettoken?', params=variable)
         print('Accessing %s ' % r.url)
         return r.json()
